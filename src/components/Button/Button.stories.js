@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+// import Center from "../Center/Center";
 
 export default {
   title: "Buttons/Button",
@@ -8,6 +9,9 @@ export default {
   args: {
     children: "Button",
   },
+  // this will wrap every component in this particular story with the Center Component - you can also set global
+  // decorators in preview.js
+  // decorators: [(story) => <Center>{story()}</Center>],
 };
 
 // pre v6 you had to write all exports like this but we can now use a template
